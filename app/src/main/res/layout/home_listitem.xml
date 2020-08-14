@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wrapper_list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_grey_border_bottom">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_gcoding"
+                android:id="@+id/ic_location"/>
+            <TextView
+                android:id="@+id/item_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/ic_location"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:textColor="@color/grey"
+                android:textSize="15sp"
+                tools:text="address" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/detailMenu"
+                android:src="@drawable/ic_more"
+                />
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/nicolas_cage"/>
+        <TextView
+            android:id="@+id/item_caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_image"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:text="Caption" />
+        <TextView
+            android:id="@+id/item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/item_caption"
+            android:singleLine="true"
+            android:textColor="@color/grey"
+            android:textSize="15sp"
+            tools:text="time" />
+
+        </RelativeLayout>
+    </RelativeLayout>

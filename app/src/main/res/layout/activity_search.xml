@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <include layout="@layout/snippet_top_searchbar"></include>
+
+        <LinearLayout
+            android:id="@+id/llLayout"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/searchlayout"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+
+            <ListView
+                android:id="@+id/lv_history_word"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+            </ListView>
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/grey" />
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:text="Clear History"
+                android:height="40dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:visibility="visible"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <include layout="@layout/layout_bottom_navigation_view"/>
+    </RelativeLayout>
+    <!--bottom navigation-->
+
+
+
+
+
+
+</RelativeLayout>

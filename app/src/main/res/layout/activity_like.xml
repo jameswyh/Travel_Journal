@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wrapper">
+    <include layout="@layout/snippet_top_likebar"></include>
+    <ListView
+        android:id="@+id/list_view_like"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_item"
+        android:layout_below="@+id/like_bar"
+        android:layout_marginBottom="50dp"/>
+    <include layout="@layout/layout_bottom_navigation_view"/>
+
+</RelativeLayout>
