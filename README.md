@@ -44,7 +44,7 @@ Realize image editing, storage and other functions through Bitmap
 Choose to use picasso, universalimageloader, glide to load pictures according to different purposes
 ## User Interface
 ### Photo Map
-![](https://github.com/jameswyh/Travel_Journal_App/blob/master/Travel_UI_pic/Picture1.png)
+![wqeqweqwe](https://github.com/jameswyh/Travel_Journal_App/blob/master/Travel_UI_pic/Picture1.png)
 ### Phtot Timeline
 ![](https://github.com/jameswyh/Travel_Journal_App/blob/master/Travel_UI_pic/Picture2.png)
 ### Attractions Search
