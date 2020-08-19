@@ -58,7 +58,7 @@ Choose to use picasso, universalimageloader, glide to load pictures according to
 ![](https://github.com/jameswyh/Travel_Journal_App/blob/master/Travel_UI_pic/Picture7.png)
 ### Photo Album
 ![](https://github.com/jameswyh/Travel_Journal_App/blob/master/Travel_UI_pic/Picture8.png)
-### Send a log
+### Post a log
 ![](https://github.com/jameswyh/Travel_Journal_App/blob/master/Travel_UI_pic/post.png)
 
 
