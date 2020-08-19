@@ -27,7 +27,7 @@ This travel log app has five modules, which are log viewing, log publishing, nat
 ### Call Baidu map api
 Baidu map api is called on multiple interfaces, and this api is used to realize real-time positioning, map display, coordinate coding and other functions;
 ### Call LY.com open api
-Call the open api of Tongcheng.com to realize the scenic spot search function through network request;
+Call the open api of LY.com to realize the scenic spot search function through network request;
 ### Parse Json data through Gson
 Parse the json data returned by LY.com's open api through the Gson method;
 ### Multi-threaded operation
